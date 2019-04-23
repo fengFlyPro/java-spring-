@@ -16,4 +16,13 @@ public class LessonTest {
         studentService.add(3);
         studentService.delete();
     }
+
+    @Test
+    public void test2(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("beans02.xml");
+        StudentService studentService = (StudentService) context.getBean("studentService");
+//        studentService.add();
+        studentService.add(3);
+//        studentService.delete();
+    }
 }

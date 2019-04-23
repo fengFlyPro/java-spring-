@@ -6,12 +6,9 @@ import org.springframework.stereotype.Service;
 @Service("studentService")
 public class StudentService {
 
-    //相当于一个公共切入点
-    @Pointcut
-    public void myCutPoint(){}
-
     public int add(int a){
         System.out.println("add学生");
+//        System.out.println(1/0);
         return a;
     }
 

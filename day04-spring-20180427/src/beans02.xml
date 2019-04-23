@@ -12,7 +12,7 @@
                            http://www.springframework.org/schema/aop
                            http://www.springframework.org/schema/aop/spring-aop.xsd">
     <!-- 扫描注解 -->
-    <context:component-scan base-package="com.zhf6.service"></context:component-scan>
+    <context:component-scan base-package="com.zhf6"></context:component-scan>
 
     <!-- 确定AOP生效-->
     <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy>

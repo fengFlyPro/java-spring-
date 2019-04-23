@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 
-@Service("myUserService")
+//@Service("myUserService")
 public class UserServiceImpl implements IUserService {
 
     @Autowired //spring会自动注入userDao赋值
