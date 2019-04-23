@@ -245,7 +245,7 @@ ModelManifest.xml
 
 #我的自己注释
 *.exe
-.idea/*
-out/*
+.idea/
+out/
 
 
