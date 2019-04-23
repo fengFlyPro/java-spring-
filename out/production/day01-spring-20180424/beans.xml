@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+    <!-- bean definitions here -->
+<!--
+    spring内部创建对象的原理
+    1.解析xml文件，获取类名，id，属性
+    2.通过反射，用类型创建对象
+    3.给对象赋值
+-->
+    <bean id="userService1" class="com.zhf6.service.UserServiceImpl">
+        <!-- 依赖注入-->
+        <property name="name" value="fengfly"></property>
+    </bean>
+
+    <bean id="userService2" class="com.zhf6.service.UserServiceImpl">
+        <!-- 依赖注入-->
+        <property name="name" value="zhf666"></property>
+    </bean>
+</beans>
