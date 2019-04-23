@@ -1,6 +1,14 @@
 package com.zhf6.service;
 
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Service;
+
+@Service("studentService")
 public class StudentService {
+
+    //相当于一个公共切入点
+    @Pointcut
+    public void myCutPoint(){}
 
     public int add(int a){
         System.out.println("add学生");
