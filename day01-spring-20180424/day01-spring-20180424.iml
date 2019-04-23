@@ -26,7 +26,6 @@
       <library name="spring5">
         <CLASSES>
           <root url="file://C:/env/spring/spingjar/spring5" />
-          <root url="jar://C:/env/spring/spingjar/spring-aop-5.0.0.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
