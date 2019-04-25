@@ -247,5 +247,5 @@ ModelManifest.xml
 *.exe
 .idea/
 out/
-
+db.properties
 
