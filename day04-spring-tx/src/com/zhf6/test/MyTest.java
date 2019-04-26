@@ -14,4 +14,11 @@ public class MyTest {
         IAccountService accountService = (IAccountService) context.getBean("accountService");
         accountService.transer("jack","rose",200);
     }
+
+    @Test
+    public void test2() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("beans11.xml");
+        IAccountService accountService = (IAccountService) context.getBean("accountService");
+        accountService.transer("jack","rose",100);
+    }
 }
